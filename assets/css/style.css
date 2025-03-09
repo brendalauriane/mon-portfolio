@@ -1,2 +1,151 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navigation a:hover {
+    color: #f44336;
+}
+
+/* Section Accueil */
+.accueil {
+    background-color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.accueil h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.accueil p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.photo {
+    width: 200px; /* Ajuste la largeur */
+    height: 200px; /* Ajuste la hauteur */
+    border-radius: 50%; /* Pour une image ronde */
+    object-fit: cover; /* Pour que l'image couvre bien la zone sans déformer */
+    margin-top: 20px; /* Un peu d'espace entre le titre et l'image */
+}
+
+/* Section Projets */
+.projets {
+    background-color: #e0e0e0;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.projets h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.projet {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.projet h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.projet p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Section Contact */
+.contact {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
